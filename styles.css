@@ -1,0 +1,208 @@
+/*Main*/
+
+/*Header*/
+
+header{
+z-index: 1;
+}
+
+header h3{
+    font-family: 'Prompt', 'sans-serif';
+    font-weight: bolder;
+    margin-left: 50px;
+    font-size: 32px;
+    padding-top: 15px;
+}
+
+#accueil{
+    text-decoration: none;
+    color: black;
+}
+
+#lien{
+    font-family: 'Assistant', sans-serif; 
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+#logo{
+    padding-top: 20px;
+}
+
+#pages{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+/*#pages:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}*/
+
+#pages:hover::after{
+    width: 100%; 
+    left: 0; 
+}
+
+#logo-lien{
+    text-decoration: none;
+    color: black;
+}
+
+/*Body*/
+
+#bg{
+    position: fixed;
+    bottom: 50px;
+    z-index: -1;
+}
+
+
+/*Footer*/
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom:0;
+    text-align: center;
+}
+
+#mentions{
+    font-family: 'Athiti', sans-serif;
+    font-size: 18px;
+} 
+
+/*Film*/
+
+header {
+    font-family: 'Assistant', 'sans-serif';
+    background-color: white;
+    border: none;
+    font-size: 24px;
+}
+
+img, h3{
+    opacity: 1;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn{
+    0% {
+        opacity : 0;
+    }
+    100%{
+        opacity : 1;
+    }
+}
+
+#titre{
+    position: absolute;
+    z-index: 2;
+    font-family: 'prompt','sans-serif';
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 28px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: black 1px 1px 1px;
+}
+
+#footer-film{
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    bottom : 0;
+    text-align: center;
+}
+
+#footer-heode{
+    position: absolute;
+    width: 100%;
+    bottom : 0;
+    text-align: center;
+
+}
+
+
+.filter-button:hover{
+    cursor: pointer;
+}
+
+.hover-zoomin a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  .hover-zoomin img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .hover-zoomin:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+/*Fiche film*/
+
+#titre-film{
+    font-family: "prompt", 'sans-serif';
+    font-weight: bold;
+}
+
+#texte-film{
+    font-family: 'Athiti', 'sans-serif';
+}
+
+#poste-film{
+    font-family: "assistant", 'sans-serif';
+    font-weight: bold;
+}
+
+/*Portfolio photo*/
+
+.baguetteBox-button{
+    background-color: transparent !important;
+}
+
+#filtre-photo, #filtre-photo1, #filtre-photo2, #filtre-photo3, #filtre-photo4 {
+    display: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "prompt" sans-serif;
+    color: black;
+}
+
+.lightbox{
+    margin-right: 2px;
+}
+
+.grid{
+    background-color: red;
+    margin : 10px 30px;
+    padding-left: 30px;
+}
+
+.grid-sizer, .grid-item{
+    width: 24%;
+}
